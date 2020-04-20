@@ -1,0 +1,13 @@
+body {
+    color: $font_color_one;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    @include flex;
+}

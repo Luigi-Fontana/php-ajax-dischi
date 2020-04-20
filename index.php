@@ -22,8 +22,107 @@
             </div>
         </header>
         <main>
-            <div class="container">
-
+            <div class="container flex">
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-cover">
+                        <img src="img/cover2.jpg" alt="cover">
+                    </div>
+                    <div class="card-text">
+                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
+                        <p>The Beatles</p>
+                        <small>1967</small>
+                    </div>
+                </div>
             </div>
         </main>
 

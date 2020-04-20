@@ -28,6 +28,7 @@ body {
 header {
   height: 70px;
   background-color: #000f18;
+  border-bottom: 1px solid #ffffff;
 }
 
 header .container {
@@ -46,7 +47,56 @@ header .container .header-right h2 {
 /* MAIN */
 
 main {
-  height: calc(100vh - 70px);
+  height: calc(100% - 70px);
   background-color: #0f0f0f;
+  padding: 30px;
+}
+
+main .container {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main .container .card {
+  width: 200px;
+  height: 300px;
+  background-color: #000f18;
+  border-radius: 20px;
+  box-shadow: 0 0 3px 0 black;
+  margin: 15px;
+}
+
+main .container .card .card-cover {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .container .card .card-cover img {
+  width: 170px;
+  height: 170px;
+}
+
+main .container .card .card-text {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+}
+
+main .container .card .card-text h4 {
+  font-size: 16px;
+}
+
+main .container .card .card-text p {
+  font-size: 14px;
+}
+
+main .container .card .card-text small {
+  font-size: 12px;
 }
 

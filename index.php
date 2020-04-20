@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <!-- <script src="https://kit.fontawesome.com/07f1e373ab.js" crossorigin="anonymous"></script> -->
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js" charset="utf-8"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js" charset="utf-8"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <title>SpotiFlix</title>
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
@@ -24,9 +24,9 @@
         <main>
             <div class="container flex">
                 <?php // Procedimento con solo PHP
-                    include 'data.php';
+                    // include 'data.php';
                 ?>
-                <?php foreach ($discs as $key => $disc) { ?>
+                <?php /* foreach ($discs as $key => $disc) { ?>
                     <div class="card">
                         <div class="card-cover">
                             <img src="<?php echo $disc['cover']; ?>" alt="cover">
@@ -37,9 +37,22 @@
                             <small><?php echo $disc['year']; ?></small>
                         </div>
                     </div>
-                <?php } ?>
+                <?php } */ ?>
             </div>
         </main>
+
+        <script id="card-template" type="text/x-handlebars-template"> <!-- Procedimento con JS e Handlebars -->
+            <div class="card">
+                <div class="card-cover">
+                    <img src="{{cover}}" alt="cover">
+                </div>
+                <div class="card-text">
+                    <h4>{{title}}</h4>
+                    <p>{{author}}</p>
+                    <small>{{year}}</small>
+                </div>
+            </div>
+        </script>
 
         <script src="dist/js/app.js" charset="utf-8"></script>
     </body>

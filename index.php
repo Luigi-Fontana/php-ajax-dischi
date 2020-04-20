@@ -23,106 +23,21 @@
         </header>
         <main>
             <div class="container flex">
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
+                <?php // Procedimento con solo PHP
+                    include 'data.php';
+                ?>
+                <?php foreach ($discs as $key => $disc) { ?>
+                    <div class="card">
+                        <div class="card-cover">
+                            <img src="<?php echo $disc['cover']; ?>" alt="cover">
+                        </div>
+                        <div class="card-text">
+                            <h4><?php echo $disc['title']; ?></h4>
+                            <p><?php echo $disc['author']; ?></p>
+                            <small><?php echo $disc['year']; ?></small>
+                        </div>
                     </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-cover">
-                        <img src="img/cover2.jpg" alt="cover">
-                    </div>
-                    <div class="card-text">
-                        <h4>Sgt Pepper’s Lonely Hearts Club Band</h4>
-                        <p>The Beatles</p>
-                        <small>1967</small>
-                    </div>
-                </div>
+                <?php } ?>
             </div>
         </main>
 

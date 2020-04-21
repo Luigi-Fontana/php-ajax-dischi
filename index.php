@@ -16,8 +16,11 @@
                 <div class="header-left">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Ff2%2FLogoappliandrospotify.png&f=1&nofb=1" alt="logo">
                 </div>
-                <div class="header-right">
+                <div class="header-center">
                     <h2>SPOTIFLIX</h2>
+                </div>
+                <div class="header-right">
+                    <input id="filter" type="text" placeholder="Inserisci Titolo dell'Album">
                 </div>
             </div>
         </header>

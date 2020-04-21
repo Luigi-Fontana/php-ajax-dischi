@@ -2,17 +2,34 @@ header {
     height: 70px;
     background-color: $bg_color_one;
     border-bottom: 1px solid $font_color_one;
+    text-align: center;
     .container {
         height: 100%;
         justify-content: space-between;
         .header-left {
+            width: calc(100% / 3);
             img {
                 width: 50px;
             }
         }
-        .header-right {
+        .header-center {
+            width: calc(100% / 3);
             h2 {
-                letter-spacing: 5px;
+                font-size: 30px;
+                letter-spacing: 15px;
+            }
+        }
+        .header-right {
+            width: calc(100% / 3);
+            #filter {
+                padding: 5px 20px;
+                font-size: 12px;
+                letter-spacing: 3px;
+                border: none;
+                border-radius: 10px;
+                background-color: $bg_color_two;
+                color: $font_color_one;
+                box-shadow: 0 0 3px 0 white;
             }
         }
     }

@@ -29,6 +29,7 @@ header {
   height: 70px;
   background-color: #000f18;
   border-bottom: 1px solid #ffffff;
+  text-align: center;
 }
 
 header .container {
@@ -36,17 +37,42 @@ header .container {
   justify-content: space-between;
 }
 
+header .container .header-left {
+  width: calc(100% / 3);
+}
+
 header .container .header-left img {
   width: 50px;
 }
 
-header .container .header-right h2 {
-  letter-spacing: 5px;
+header .container .header-center {
+  width: calc(100% / 3);
+}
+
+header .container .header-center h2 {
+  font-size: 30px;
+  letter-spacing: 15px;
+}
+
+header .container .header-right {
+  width: calc(100% / 3);
+}
+
+header .container .header-right #filter {
+  padding: 5px 20px;
+  font-size: 12px;
+  letter-spacing: 3px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0f0f0f;
+  color: #ffffff;
+  box-shadow: 0 0 3px 0 white;
 }
 
 /* MAIN */
 
 main {
+  min-height: 100vh;
   height: calc(100% - 70px);
   background-color: #0f0f0f;
   padding: 30px;
